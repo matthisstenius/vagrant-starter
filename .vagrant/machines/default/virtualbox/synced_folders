@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant":{"mount_options":["dmode=777","fmode=666"],"guestpath":"/home/vagrant","hostpath":"/Users/Matthis/Sites/vagrant-php/src"},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/Matthis/Sites/vagrant-php"}}}

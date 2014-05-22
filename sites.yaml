@@ -1,8 +1,4 @@
-authorize: /Users/Matthis/.ssh/id_rsa.pub
-
-keys:
-    - /Users/Matthis/.ssh/id_rsa
-
+---
 sites:
     - map: server.dev
-      to: /home/vagrant/laravel/public
+      to: /vagrant/src/projectpath

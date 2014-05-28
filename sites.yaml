@@ -1,4 +1,4 @@
 ---
 sites:
-    - map: server.dev
-      to: /vagrant/src/projectpath
+    - map: yourhostname.dev
+      to: /vagrant/path-to-your-project

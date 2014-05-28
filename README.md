@@ -5,11 +5,21 @@ A starter for vagrant WM's inspired by laravel/homestead
 
 ## Installs
 
-### Base
+### Base Provisioner
 * Ubuntu 12.10
 * Nginx
 * Vim
 * Curl
+
+### Extra Provisioners
+
+After the base is installed extra provisioners are installed. As default
+PHP and MySQL are installed.
+
+If you don't want/need any of these provisioners just comment them out in the Vagrantfile.
+
+You can easly add your own proisioners either by adding them to the other.sh file or by creating
+your own bash file which you than include in the Vagrantfile.
 
 ## Installation
 

@@ -16,6 +16,11 @@ sudo apt-get install -y php5-fpm php5-curl php5-gd php5-mcrypt php5-mysql git-co
 echo "--- Installing and configuring Xdebug ---"
 sudo apt-get install -y php5-xdebug
 
+echo "--- Turn on error_reporting ---"
+
+sed -i "s/error_reporting = .*/error_reporting = E_ALL/" /etc/php5/fpm/php.ini
+sed -i "s/display_errors = .*/display_errors = On/" /etc/php5/fpm/php.ini
+
 cat << EOF | sudo tee -a /etc/php5/mods-available/xdebug.ini
 xdebug.scream=1
 xdebug.cli_color=1

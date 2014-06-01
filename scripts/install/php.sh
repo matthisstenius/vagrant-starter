@@ -11,7 +11,7 @@ echo "--- Updating packages list ---"
 sudo apt-get update
 
 echo "--- Installing PHP-specific packages ---"
-sudo apt-get install -y php5-fpm php5-curl php5-gd php5-mcrypt php5-mysql git-core
+sudo apt-get install -y php5-fpm php5-curl php5-gd php5-mcrypt php5-mysql git-core php5-sqlite
 
 echo "--- Installing and configuring Xdebug ---"
 sudo apt-get install -y php5-xdebug

@@ -8,7 +8,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     require 'yaml'
     settings = YAML::load(File.read(File.dirname(__FILE__) + '/sites.yaml'))
 
-    config.vm.box = "hashicorp/precise32"
+    config.vm.box = "laravel/homestead"
 
     config.vm.network "private_network", ip: "192.168.50.4"
 
